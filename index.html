@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoriShakti | Nature's Strength, Every Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="loader">
+        <div class="loader-logo">M</div>
+        <h2>MoriShakti</h2>
+        <p>Nature's Strength, Every Day.</p>
+    </div>
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            <span class="logo-circle">M</span>
+            <span>Mori<span>Shakti</span></span>
+        </a>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#product">Product</a>
+            <a href="#benefits">Benefits</a>
+            <a href="#about">About</a>
+            <a href="#reviews">Reviews</a>
+        </nav>
+
+        <a href="#product" class="nav-buy">
+            Shop Now <span>→</span>
+        </a>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" onclick="toggleMenu()">Home</a>
+        <a href="#product" onclick="toggleMenu()">Product</a>
+        <a href="#benefits" onclick="toggleMenu()">Benefits</a>
+        <a href="#about" onclick="toggleMenu()">About</a>
+        <a href="#reviews" onclick="toggleMenu()">Reviews</a>
+    </div>
+
+    <section class="hero" id="home">
+
+        <div class="leaf leaf-one">✦</div>
+        <div class="leaf leaf-two">✦</div>
+        <div class="leaf leaf-three">✦</div>
+
+        <div class="hero-left reveal">
+
+            <div class="mini-badge">
+                <span>●</span> NATURAL • PLANT BASED
+            </div>
+
+            <h1>
+                Nature's
+                <span>Strength</span>
+                <br>
+                Every Day.
+            </h1>
+
+            <p>
+                Discover the simple goodness of drumstick leaves,
+                carefully crafted into a convenient powder for
+                your everyday wellness routine.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#product" class="main-btn">
+                    Explore Product
+                    <span>→</span>
+                </a>
+
+                <a href="#about" class="watch-btn">
+                    <span class="play">▶</span>
+                    Discover MoriShakti
+                </a>
+
+            </div>
+
+            <div class="hero-trust">
+
+                <div>
+                    <strong>100%</strong>
+                    <small>Natural</small>
+                </div>
+
+                <div>
+                    <strong>Plant</strong>
+                    <small>Based</small>
+                </div>
+
+                <div>
+                    <strong>Daily</strong>
+                    <small>Wellness</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="marquee">
+
+        <div class="marquee-track">
+
+            <span>🌿 NATURAL GOODNESS</span>
+            <span>✦ MORISHAKTI</span>
+            <span>🌱 PLANT BASED</span>
+            <span>✦ EVERYDAY WELLNESS</span>
+            <span>🌿 NATURAL GOODNESS</span>
+            <span>✦ MORISHAKTI</span>
+            <span>🌱 PLANT BASED</span>
+            <span>✦ EVERYDAY WELLNESS</span>
+
+        </div>
+
+    </div>
+
+    <section class="product-section" id="product">
+
+        <div class="section-title reveal">
+
+            <span>OUR SIGNATURE PRODUCT</span>
+
+            <h2>
+                Meet your new
+                <em>daily ritual.</em>
+            </h2>
+
+            <p>
+                Simple, natural and easy to make a part of your everyday life.
+            </p>
+
+        </div>
+
+        <div class="product-showcase">
+
+            <div class="product-info reveal">
+
+                <span class="product-tag">MORISHAKTI ORIGINAL</span>
+
+                <h3>
+                    Drumstick
+                    <span>Powder</span>
+                </h3>
+
+                <div class="stars">
+                    ★★★★★
+                    <small> Loved by wellness seekers</small>
+                </div>
+
+                <p class="product-description">
+                    MoriShakti Drumstick Powder brings the natural
+                    goodness of drumstick leaves into a convenient
+                    powder format.
+                </p>
+
+                <div class="features">
+
+                    <div>
+                        <span>🌿</span>
+                        <p><strong>Plant Based</strong><br>Natural ingredient</p>
+                    </div>
+
+                    <div>
+                        <span>🥄</span>
+                        <p><strong>Easy to Use</strong><br>Simple daily routine</p>
+                    </div>
+
+                    <div>
+                        <span>✨</span>
+                        <p><strong>Carefully Made</strong><br>Made with care</p>
+                    </div>
+
+                    <div>
+                        <span>🌱</span>
+                        <p><strong>Nature Inspired</strong><br>Goodness from nature</p>
+                    </div>
+
+                </div>
+
+                <div class="price-row">
+
+                    <div>
+                        <small>START YOUR ROUTINE</small>
+                        <strong>MoriShakti</strong>
+                    </div>
+
+                    <button onclick="showMessage()">
+                        Add to Routine +
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="benefits" id="benefits">
+
+        <div class="section-title light reveal">
+
+            <span>WHY MORISHAKTI</span>
+
+            <h2>
+                Good things should
+                <em>feel simple.</em>
+            </h2>
+
+            <p>
+                Designed around nature, simplicity and everyday living.
+            </p>
+
+        </div>
+
+        <div class="benefit-grid">
+
+            <div class="benefit-card reveal">
+                <div class="benefit-icon">🌿</div>
+                <span>01</span>
+                <h3>Natural</h3>
+                <p>
+                    Inspired by the goodness of naturally sourced
+                    drumstick leaves.
+                </p>
+            </div>
+
+            <div class="benefit-card reveal">
+                <div class="benefit-icon">🥄</div>
+                <span>02</span>
+                <h3>Convenient</h3>
+                <p>
+                    Powder format makes it simple to include
+                    in your everyday routine.
+                </p>
+            </div>
+
+            <div class="benefit-card reveal">
+                <div class="benefit-icon">🌱</div>
+                <span>03</span>
+                <h3>Plant Based</h3>
+                <p>
+                    A plant-based choice inspired by traditional
+                    natural ingredients.
+                </p>
+            </div>
+
+            <div class="benefit-card reveal">
+                <div class="benefit-icon">✨</div>
+                <span>04</span>
+                <h3>Made With Care</h3>
+                <p>
+                    Thoughtfully presented for a clean,
+                    modern wellness experience.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+
+        <div class="about-content reveal">
+
+            <span class="section-label">OUR STORY</span>
+
+            <h2>
+                Bringing nature
+                <em>closer to you.</em>
+            </h2>
+
+            <p>
+                MoriShakti started with one simple thought:
+                everyday wellness doesn't need to be complicated.
+            </p>
+
+            <p>
+                We are building a modern natural wellness brand
+                inspired by the humble drumstick plant and its
+                place in everyday life.
+            </p>
+
+            <div class="story-line">
+
+                <div class="story-dot"></div>
+
+                <div>
+                    <strong>Created with a simple idea</strong>
+                    <p>
+                        Make natural goodness easy to understand,
+                        easy to use and easy to enjoy.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="creator">
+                Created by <strong>Kumud Singh</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="how">
+
+        <div class="section-title reveal">
+
+            <span>YOUR DAILY ROUTINE</span>
+
+            <h2>
+                Three steps.
+                <em>That's it.</em>
+            </h2>
+
+        </div>
+
+        <div class="steps">
+
+            <div class="step reveal">
+
+                <div class="step-number">01</div>
+
+                <div class="step-icon">🥄</div>
+
+                <h3>Take</h3>
+
+                <p>
+                    Take the recommended quantity of
+                    MoriShakti powder.
+                </p>
+
+            </div>
+
+            <div class="step-line"></div>
+
+            <div class="step reveal">
+
+                <div class="step-number">02</div>
+
+                <div class="step-icon">🥤</div>
+
+                <h3>Mix</h3>
+
+                <p>
+                    Mix it into a suitable food or
+                    beverage of your choice.
+                </p>
+
+            </div>
+
+            <div class="step-line"></div>
+
+            <div class="step reveal">
+
+                <div class="step-number">03</div>
+
+                <div class="step-icon">✨</div>
+
+                <h3>Enjoy</h3>
+
+                <p>
+                    Make it a simple part of your
+                    everyday routine.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="reviews" id="reviews">
+
+        <div class="section-title reveal">
+
+            <span>COMMUNITY LOVE</span>
+
+            <h2>
+                Simple words from
+                <em>happy users.</em>
+            </h2>
+
+        </div>
+
+        <div class="review-grid">
+
+            <div class="review-card reveal">
+
+                <div class="review-stars">★★★★★</div>
+
+                <p>
+                    "I really like how simple and clean
+                    the product experience feels."
+                </p>
+
+                <div class="review-user">
+                    <div class="avatar">A</div>
+                    <div>
+                        <strong>Wellness User</strong>
+                        <small>Verified Experience</small>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="review-card featured reveal">
+
+                <div class="review-stars">★★★★★</div>
+
+                <p>
+                    "A modern take on a traditional
+                    natural ingredient. Love the concept!"
+                </p>
+
+                <div class="review-user">
+                    <div class="avatar">R</div>
+                    <div>
+                        <strong>Happy Customer</strong>
+                        <small>Verified Experience</small>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="review-card reveal">
+
+                <div class="review-stars">★★★★★</div>
+
+                <p>
+                    "The idea is beautiful — simple,
+                    natural and easy to understand."
+                </p>
+
+                <div class="review-user">
+                    <div class="avatar">S</div>
+                    <div>
+                        <strong>Wellness User</strong>
+                        <small>Verified Experience</small>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="faq">
+
+        <div class="faq-left reveal">
+
+            <span class="section-label">FAQ</span>
+
+            <h2>
+                Got questions?
+                <em>We've got answers.</em>
+            </h2>
+
+            <p>
+                Everything you need to know about MoriShakti.
+            </p>
+
+        </div>
+
+        <div class="faq-right">
+
+            <div class="faq-item reveal">
+
+                <button onclick="toggleFaq(this)">
+                    What is MoriShakti?
+                    <span>+</span>
+                </button>
+
+                <div class="faq-answer">
+                    MoriShakti is a natural wellness brand
+                    featuring drumstick powder in a convenient
+                    everyday format.
+                </div>
+
+            </div>
+
+            <div class="faq-item reveal">
+
+                <button onclick="toggleFaq(this)">
+                    How can I use the powder?
+                    <span>+</span>
+                </button>
+
+                <div class="faq-answer">
+                    It can be mixed into a suitable food or
+                    beverage according to the product directions.
+                </div>
+
+            </div>
+
+            <div class="faq-item reveal">
+
+                <button onclick="toggleFaq(this)">
+                    Is MoriShakti plant based?
+                    <span>+</span>
+                </button>
+
+                <div class="faq-answer">
+                    Yes. MoriShakti is inspired by naturally
+                    sourced plant ingredients.
+                </div>
+
+            </div>
+
+            <div class="faq-item reveal">
+
+                <button onclick="toggleFaq(this)">
+                    Who created MoriShakti?
+                    <span>+</span>
+                </button>
+
+                <div class="faq-answer">
+                    MoriShakti was created by Kumud Singh.
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="final-cta">
+
+        <div class="cta-glow"></div>
+
+        <div class="reveal">
+
+            <span>READY TO BEGIN?</span>
+
+            <h2>
+                Bring a little more
+                <em>nature</em> into your day.
+            </h2>
+
+            <p>
+                Nature's Strength, Every Day.
+            </p>
+
+            <a href="#product" class="main-btn white-btn">
+                Explore MoriShakti →
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <div class="logo footer-logo">
+                    <span class="logo-circle">M</span>
+                    <span>Mori<span>Shakti</span></span>
+                </div>
+
+                <p>
+                    Nature's Strength, Every Day.
+                </p>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h4>Explore</h4>
+
+                <a href="#home">Home</a>
+                <a href="#product">Product</a>
+                <a href="#benefits">Benefits</a>
+
+            </div>
+
+            <div class="footer-column">
+
+                <h4>Learn</h4>
+
+                <a href="#about">Our Story</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#home">Contact</a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <span>© 2026 MoriShakti</span>
+
+            <span>Created by Kumud Singh</span>
+
+            <span>Made with 🌿 & care</span>
+
+        </div>
+
+    </footer>
+
+    <div class="toast" id="toast">
+        🌿 Added to your daily routine!
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
